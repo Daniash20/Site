@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'DMSans';
+    src: url(../fonts/DMSans.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #191919;
+    font-family: 'DMSans';
+}
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color: white;
+}  
+.header__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* Menu */
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+}
+.menu__item{
+    color: white;
+}
+.menu__link{
+   color: white;
+}
+.main{
+    padding: 20px 50px;
+    color: white;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.text{
+    text-align: justify;
+    font-size: 18px;
+}
+/* Post */
+.post{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    font-family: 'DMSans';
+}
+.post__info{
+    display: flex;
+    width: 8vw;
+    gap: 30px;
+    margin-right: 50px;
+    flex-direction: column;
+}
+.post__description{
+    font-size: 18px;
+    width: 70vw;
+    text-align: justify;
+}
+.post__link{
+    color: white;
+}
+.post__message{
+    padding: 0 50px;
+}
+/* form */
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form__input{
+    width: 500px;
+    height: 30px;
+    padding: 10px 20px;
+    color:white;
+    background: #222020;
+    border: none;
+    border-radius: 10px;
+}
+.form__btn{
+    width: 300px;
+    padding: 10px 20px;
+    color:white;
+    background: #222020;
+    border: none;
+    border-radius: 10px;
+}
+.delete__btn{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    border: 3px solid white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.delete__link{
+    color: white;
+    padding-top: 3px;
+    position: fixed;
+    right: 30px;
+}
+/* Auth */
+.auth{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    gap: 10px;
+}
+.auth input{
+    background: #222020;
+    padding: 3px 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.auth__incorrect{
+    font-family: "DMSans";
+}
+/* User */
+.user{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+.user__logout-link{
+    color: white;
+}
+.user__logout-link:hover{
+   text-decoration: underline;
+}
+/* questions */
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.question__text{
+    font-family: "DMSans";
+}
+.question__btn{
+    font-size: 700;
+    background: #222020;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* resultations */
+.resultation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* photos */
+.photos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.value{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+.photo__id{
+    width: 100px;
+}
+.photo__name{
+    width: 200px;
+    background: black;
+    font-style: 'DMSans';
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.photo__img{
+    height: 500px;
+    width: 300px;
+}
+.photo__date{
+    width: 300px;
+}
+.photo{
+    padding: 20px 10px;
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo__edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.photo__edit button{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: none;
+    font-size: 35px;
+    color:white;
+    cursor: pointer;
+}
+.photo__status{
+    border: 2px solid white !important;
+    border-radius: 100px;
+}
+.rename__img{
+    width: 32px;
+    background-color: none;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.edit input{
+    
+    color: white;
+    background: #191919;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.edit__photo{
+    width: 300px;
+}
+/* Footer */
+.footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: white;
+}
+.footer__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
